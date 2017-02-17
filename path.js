@@ -10,6 +10,7 @@ function buildPath(p,n){
       path.push(true);
     }
   }
+  path[n]=true;
   return path;
 }
 
